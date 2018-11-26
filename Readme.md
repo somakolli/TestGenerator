@@ -7,20 +7,16 @@ To Build from source Maven is required.
 Build with `mvn package` and execute `java -jar target/SelfAssesment-1.0-jar-with-dependencies.jar` 
 to run the GUI.
 
-If you don't want to build yourself you can find a pre build jar in the bin folder. You can also run that with `java -jar bin/SelfAssesment-1.0-jar-with-dependencies.jar`
+If you don't want to build yourself you can find a pre build jar [here](https://github.com/somakolli/TestGenerator/releases/latest)  . You can also run that with `java -jar bin/SelfAssesment-1.0-jar-with-dependencies.jar`
 
-A demo-test is located in `bin/demo-test`. To use it just got to `File -> Import XML` and choose the `demo-test.xml`.
+A demo-test is located in the [`demo-test`-folder](/demo-test). To use it just got to `File -> Import XML` and choose the `demo-test.xml`.
 For the images to be shown correctly chose `Insert Media -> Set Media Folder` and chose the `demo-images` folder.
 
 To then Generate the Website chose `File -> Generate Website` which will generate a zip with the chosen location and name.
 
-To Generate a Website using the command line run `java -jar SelfAssesment-1.0-jar-with-dependencies.jar pathToXml pathToMediaFolder`. The website will the be safed as `website.zip` in the folder you ran the command.
+To Generate a Website using the command line run `java -jar SelfAssesment-1.0-jar-with-dependencies.jar pathToXml pathToMediaFolder`. The website will then be safed as `website.zip` in the folder you ran the command.
 
-So to Generate a website using the demo-test you can just run `java -jar bin/SelfAssesment-1.0-jar-with-dependencies.jar bin/demo-test/demo-test.xml bin/demo-test/demo-images/`.
-
-## Documentation
-
-You can find a generated JavaDoc and JavaScriptDoc in the `bin` folder.
+So to Generate a website using the demo-test you can just run `java -jar SelfAssesment-1.0-jar-with-dependencies.jar demo-test/demo-test.xml demo-test/demo-images/`.
 
 ## GUI Guide
 
@@ -91,7 +87,3 @@ You can see the possible markdown commands here https://commonmark.org/.
 To input videos or images please use html, since markdown does not allow to change the size.
 
 If you want to center the content use `<center></center>`
-
-
-
-
