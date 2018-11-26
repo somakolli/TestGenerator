@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<saRoot>
+    <content>
+        <id>0</id>
+        <category>
+            <categoryName>testCategoryName</categoryName>
+            <content></content>
+        </category>
+        <content>testQuestion</content>
+        <points>5</points>
+        <time>60</time>
+        <answer>
+            <content>My first answer</content>
+            <correct>false</correct>
+            <id>0</id>
+        </answer>
+        <answer>
+            <content>My second answer</content>
+            <correct>false</correct>
+            <id>0</id>
+        </answer>
+    </content>
+    <content>
+        <id>1</id>
+        <category>
+            <categoryName></categoryName>
+            <content></content>
+        </category>
+        <content></content>
+        <points>0</points>
+        <time>0</time>
+    </content>
+</saRoot>

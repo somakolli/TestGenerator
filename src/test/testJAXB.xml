@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<saRoot>
+	<categories>
+	<categoryName>testCategoryName</categoryName>
+	</categories>
+    <questions>
+    	<id>0</id>
+    	<category>
+    		<categoryName>testCategoryName</categoryName>
+    	</category>
+        <content>testQuestion</content>
+        <points>5</points>
+        <time>60</time>
+        <mediaPaths>defaultpath</mediaPaths>
+        <mediaPaths>defautpath2</mediaPaths>
+        <answers>
+            <content>My first answer</content>
+            <mediaPath>defaultpath</mediaPath>
+            <mediaPath>defaultpath2</mediaPath>
+        </answers>
+    </questions>
+    <questions>
+        <id>1</id>
+        <content></content>
+        <points>0</points>
+        <time>0</time>
+           <answers>
+            <content>My second answer</content>
+            <mediaPath>defaultpath</mediaPath>
+            <mediaPath>defaultpath2</mediaPath>
+        </answers>
+    </questions>
+</saRoot>

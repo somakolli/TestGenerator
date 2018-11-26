@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Template for a question page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/containerStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/bottomContentStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/color.css">
+    <link rel="stylesheet" type="text/css" href="css/topContentStyle.css">
+    <script src="scripts/preventBack.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/QCount.js"></script>
+    <script src="scripts/solution.js"></script>
+    <script src="scripts/categories.js"></script>
+    <script src="scripts/timer.js"></script>
+    <script src="scripts/load-question.js"></script>
+    <script src="scripts/evaluation.js"></script>
+    <script src="scripts/base64.js"></script>
+    <script src="scripts/state.js"></script>
+    <script src="scripts/points.js"></script>
+</head>
+
+<body>
+    <!-----------------------------HEADER---------------------->
+    <img src="images/unistuttgart_logo_deutsch.jpg" class="rounded" alt="Logo der Universität Stuttgart" width="500"
+         height="100" style="margin: 0px 10px">
+    <nav class="header" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        </ol>
+    </nav>
+    <!-----------------------------HEADER---------------------->
+
+    <!-----------------------------PROGRESS BAR---------------------->
+    <div class="progress">
+    </div>
+    <!-----------------------------PROGRESS BAR---------------------->
+
+    <!-----------------------------CONTENT-CONTAINER---------------------->
+    <div class="container-fluid">
+        <div class="card border-dark mb-3">
+        </div>
+        <div id="timer" value="60">
+        </div>
+        <div class="bottom-right">
+            <a href="#" class="next" onclick="updateState();">Next</a>
+        </div>
+    </div>
+</body>
+</html>
