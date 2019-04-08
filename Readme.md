@@ -1,3 +1,7 @@
+## Introduction
+This is a java program to easily generate an interactive self assesment test.
+You define questions and answers in the gui written in java and then you can generate the production ready online self assesment test without the knowledge of any code.
+
 ## Build & Run
 To run the application you need Java 8.
 If you use openjdk instead of oracle jdk you also need to install openjfx.
@@ -14,7 +18,7 @@ For the images to be shown correctly chose `Insert Media -> Set Media Folder` an
 
 To then Generate the Website chose `File -> Generate Website` which will generate a zip with the chosen location and name.
 
-To Generate a Website using the command line run `java -jar SelfAssesment-1.0-jar-with-dependencies.jar pathToXml pathToMediaFolder`. The website will then be safed as `website.zip` in the folder you ran the command.
+To Generate a Website using the command line run `java -jar SelfAssesment-1.0-jar-with-dependencies.jar pathToXml pathToMediaFolder`. The website will then be saved as `website.zip` in the folder you ran the command.
 
 So to Generate a website using the demo-test you can just run `java -jar SelfAssesment-1.0-jar-with-dependencies.jar demo-test/demo-test.xml demo-test/demo-images/`.
 
